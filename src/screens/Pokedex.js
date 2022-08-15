@@ -31,6 +31,7 @@ export default function Pokedex() {
             image: pokemonDetails.sprites.other['official-artwork'].front_default,
         });    
        }
+       
        setPokemons([...pokemons  , ...pokemonsArray]);
 
     }catch (error){
